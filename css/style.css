@@ -1,0 +1,81 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #0F0E17;
+}
+
+.dark-bg-color {
+    background-color: #0F0E17;
+}
+
+.pink-text {
+    color: #E53170;
+}
+
+.orange-text {
+    color: #FA8705;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.left-floating-img {
+    float: left;
+    margin-right: 15px;
+}
+
+.right-floating-img {
+    float: right;
+    margin-left: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* 
+    MAIN
+*/
+main header {
+    padding: 30px 0;
+}
+
+/* 
+    DEBUG
+*/
+.debug .float-container {
+    border: 2px dashed red;
+}
